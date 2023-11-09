@@ -71,9 +71,9 @@ header a:hover {
   display: flex;
 }
 
-footer{
-  border-top: 1px solid #000000;
-  text-align: center;
-  margin-top:  10px;
-  padding: 10px 0;
-}
+  footer{
+    border-top: 1px solid #000000;
+    text-align: center;
+    margin-top:  10px;
+    padding: 10px 0;
+  }

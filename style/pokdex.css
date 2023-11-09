@@ -29,14 +29,15 @@ section {
   display: flex;
   flex-direction: column;
 }
-#cards {
-  margin-top: 450px;
-  width: 900px;
-  min-height: 400px;
-  margin: 88px auto;
+
+.content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;0
+  width: 70%;
+  margin: 0 auto;
+}
+
+#cards {
 }
 .card {
   background-color: darkorchid;
@@ -51,15 +52,15 @@ section {
   transform: scale(1.2);
 }
 .card-img {
-  margin-left: 20px;
+  margin-left: 10px;
   height: 50%;
 }
 .card-img img {
-  width: 160px;
+  width: 150px;
 }
-footer{
+footer {
   border-top: 1px solid #000000;
   text-align: center;
-  margin-top:  10px;
+  margin-top: 10px;
   padding: 10px 0;
 }
